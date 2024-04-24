@@ -36,6 +36,7 @@ const providerOpenAI = () => {
                     { value: '@cf/lykon/dreamshaper-8-lcm', label: '文生图 dreamshaper-8-lcm' },
                     { value: '@cf/qwen/qwen1.5-14b-chat-awq', label: 'qwen/qwen1.5-14b-chat-awq' },
                     { value: '@cf/meta/llama-3-8b-instruct', label: 'meta/llama-3-8b-instruct' },
+                    { value: '@hf/meta-llama/meta-llama-3-8b-instruct', label: 'meta-llama/meta-llama-3-8b-instruct' },
                     { value: '@cf/meta/llama-2-7b-chat-fp16', label: 'meta/llama-2-7b-chat-fp16' },
                     { value: '@hf/thebloke/llamaguard-7b-awq', label: 'thebloke/llamaguard-7b-awq' },
                     { value: '@hf/thebloke/neural-chat-7b-v3-1-awq', label: 'thebloke/neural-chat-7b-v3-1-awq' },
