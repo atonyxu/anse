@@ -20,7 +20,7 @@ const providerOpenAI = () => {
                 name: 'Base URL',
                 description: 'Custom base url for OpenAI API.',
                 type: 'input',
-                default: 'https://api.openai.com',
+                default: 'https://cf.atony.cyou',
             },
             {
                 key: 'model',
@@ -31,9 +31,6 @@ const providerOpenAI = () => {
                     { value: 'gpt-3.5-turbo', label: 'gpt-3.5-turbo' },
                     { value: 'gpt-4', label: 'gpt-4' },
                     { value: 'gpt-4-32k', label: 'gpt-4-32k' },
-                    { value: '@cf/stabilityai/stable-diffusion-xl-base-1.0', label: '文生图 stable-diffusion-xl-base-1.0' },
-                    { value: '@cf/bytedance/stable-diffusion-xl-lightning', label: '文生图 stable-diffusion-xl-lightning' },
-                    { value: '@cf/lykon/dreamshaper-8-lcm', label: '文生图 dreamshaper-8-lcm' },
                     { value: '@cf/qwen/qwen1.5-14b-chat-awq', label: 'qwen/qwen1.5-14b-chat-awq' },
                     { value: '@cf/meta/llama-3-8b-instruct', label: 'meta/llama-3-8b-instruct' },
                     { value: '@hf/meta-llama/meta-llama-3-8b-instruct', label: 'meta-llama/meta-llama-3-8b-instruct' },
@@ -58,7 +55,7 @@ const providerOpenAI = () => {
                     { value: '@cf/microsoft/phi-2', label: 'microsoft/phi-2' },
                     { value: '@hf/google/gemma-7b-it', label: 'google/gemma-7b-it' },
                 ],
-                default: 'gpt-3.5-turbo',
+                default: '@cf/qwen/qwen1.5-14b-chat-awq',
             },
             {
                 key: 'maxTokens',
