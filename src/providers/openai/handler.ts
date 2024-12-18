@@ -19,7 +19,7 @@ export const handleRapidPrompt: Provider['handleRapidPrompt'] = async(prompt, gl
     botId: 'temp',
     globalSettings: {
       ...globalSettings,
-      model: '@cf/qwen/qwen1.5-14b-chat-awq',
+      model: 'Qwen/Qwen2.5-7B-Instruct',
       temperature: 0.4,
       maxTokens: 2048,
       top_p: 1,
